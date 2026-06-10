@@ -35,20 +35,6 @@ def load_data(path="C:\\Users\\sheed\\Documents\\github\\saudi-pro-league-analyz
 })
     matches = matches.drop(columns=["team"], errors="ignore")
 
-    # Merge away team stats
-    matches = matches.merge(standings, left_on="away_team", right_on="team", suffixes=("", "_away"))
-    matches = matches.rename(columns={
-    "points_x": "home_points",
-    "win_pct_x": "home_win_pct",
-    "avg_scored_x": "home_avg_scored",
-    "avg_conceded_x": "home_avg_conceded",
-    "points_y": "away_points",
-    "win_pct_y": "away_win_pct",
-    "avg_scored_y": "away_avg_scored",
-    "avg_conceded_y": "away_avg_conceded"
-})
-    matches = matches.drop(columns=["team"], errors="ignore")
-
     return matches
 
 
