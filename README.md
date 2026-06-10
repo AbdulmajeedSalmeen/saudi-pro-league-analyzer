@@ -78,7 +78,7 @@ saudi-pro-league-analyzer/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/saudi-pro-league-analyzer.git
+git clone https://github.com/AbdulmajeedSalmeen/saudi-pro-league-analyzer.git
 cd saudi-pro-league-analyzer
 ```
 
