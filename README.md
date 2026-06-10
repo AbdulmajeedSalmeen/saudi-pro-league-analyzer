@@ -31,7 +31,7 @@ The model achieves **52% accuracy**, outperforming a random baseline of 33% by 5
 
 ## 🖥️ Live Demo
 
-👉 **[Try the app here]([https://abdulmajeedsalmeen-saudi-pro-league-analyzer-app-hessww.streamlit.app/])** ← 
+👉 **[Try the app here](https://abdulmajeedsalmeen-saudi-pro-league-analyzer-app-hessww.streamlit.app)** ← 
 
 The app includes:
 - 🔮 **Match Predictor** — select any two teams and get Win/Draw/Loss probabilities
